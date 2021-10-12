@@ -22,6 +22,6 @@ steps:
     goals: 'package'
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/s/target/hello-0.0.1-SNAPSHOT.jar'
+    targetPath: '$(System.DefaultWorkingDirectory)/s/target/hello-0.0.1-SNAPSHOT.jar'
     artifact: 'build'
     publishLocation: 'pipeline'
