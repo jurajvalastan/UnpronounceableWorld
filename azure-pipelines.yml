@@ -23,5 +23,5 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)'
-    artifact: 'hello_0.0.1-SNAPSHOT'
+    artifact: 'build'
     publishLocation: 'pipeline'
