@@ -23,5 +23,5 @@ steps:
 - task: DownloadPipelineArtifact@2
   inputs:
     buildType: 'current'
-    artifactName: 'builda'
+    artifactName: 'hello_0.0.1-SNAPSHOT'
     targetPath: '$(Pipeline.Workspace)'
